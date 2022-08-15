@@ -1,0 +1,11 @@
+logging:
+  config:
+    classpath: logback.xml  //�ǵü�classpath
+  level:
+    com.zhengzhou.springboot_6_6.entity: trace
+
+server:
+  port: 8080
+  spring:
+    thymeleaf:
+      cache: false #关闭缓存
